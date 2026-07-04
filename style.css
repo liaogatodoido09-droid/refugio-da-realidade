@@ -384,5 +384,21 @@ nav{
 
     width:100%;
 }
+    #botao-musica{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    padding:12px 20px;
+    border:none;
+    border-radius:30px;
+    background:rgba(255,255,255,.15);
+    color:white;
+    cursor:pointer;
+    backdrop-filter:blur(10px);
+    transition:.3s;
+    z-index:9999;
+}
 
+#botao-musica:hover{
+    background:rgba(255,255,255,.3);
 }
