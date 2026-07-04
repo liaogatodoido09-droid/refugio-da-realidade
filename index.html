@@ -1,116 +1,200 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refúgio da Realidade</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Fonte -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<title>Refúgio da Realidade</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-<h1 style="color:red;font-size:60px;">TESTE</h1>
+
+<div id="estrelas"></div>
+
 <header>
 
-    <div class="logo">
-        <img src="imagens/logo.png" alt="Logo">
-        <h1>Refúgio da Realidade</h1>
-    </div>
+<div class="logo">
 
-    <div class="pesquisa">
-        <input type="text" placeholder="Pesquisar...">
-    </div>
+<img src="imagens/logo.png" alt="Logo">
 
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Artigos</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
-    </nav>
+<div>
+
+<h1>Refúgio da Realidade</h1>
+
+<p>Um lugar para fugir da realidade.</p>
+
+</div>
+
+</div>
+
+<nav>
+
+<a href="#">Início</a>
+
+<a href="#artigos">Artigos</a>
+
+<a href="#sobre">Sobre</a>
+
+<a href="#contato">Contato</a>
+
+</nav>
+
+<div class="pesquisa">
+
+<input type="text" placeholder="Pesquisar...">
+
+</div>
 
 </header>
 
 <section class="hero">
 
-    <h2>Bem-vindo ao Refúgio da Realidade</h2>
+<div class="overlay"></div>
 
-    <p>
-        Um lugar onde os sonhos caminham entre as estrelas
-        e a imaginação encontra um novo lar.
-    </p>
+<div class="hero-conteudo">
 
-    <button>Entrar no Refúgio</button>
+<h2>Bem-vindo ao Refúgio</h2>
+
+<p>
+
+Existe um lugar onde o silêncio fala.
+
+Onde o céu nunca termina.
+
+Onde os sonhos caminham livremente.
+
+</p>
+
+<a href="#artigos" class="botao">
+
+Entrar
+
+</a>
+
+</div>
 
 </section>
 
-<section class="artigos">
+<section id="artigos" class="artigos">
 
-    <h2>Artigos Recentes</h2>
+<h2>Últimos Artigos</h2>
 
-    <div class="cards">
+<div class="cards">
 
-        <article class="card">
+<div class="card">
 
-            <h3>Primeiro Artigo</h3>
+<h3>O Campo Vazio</h3>
 
-            <p>
-                Este é um espaço reservado para o seu primeiro texto.
-            </p>
+<p>
 
-            <button>Ler mais</button>
+Por que lugares vazios parecem tão familiares?
 
-        </article>
+</p>
 
-        <article class="card">
+<button>Ler artigo</button>
 
-            <h3>Segundo Artigo</h3>
+</div>
 
-            <p>
-                Aqui você poderá compartilhar histórias,
-                pensamentos e sonhos.
-            </p>
+<div class="card">
 
-            <button>Ler mais</button>
+<h3>Sonhos Lúcidos</h3>
 
-        </article>
+<p>
 
-        <article class="card">
+Como nossa mente cria mundos impossíveis.
 
-            <h3>Terceiro Artigo</h3>
+</p>
 
-            <p>
-                Todo visitante encontrará um pequeno refúgio
-                para escapar da realidade.
-            </p>
+<button>Ler artigo</button>
 
-            <button>Ler mais</button>
+</div>
 
-        </article>
+<div class="card">
 
-    </div>
+<h3>Dreamcore</h3>
+
+<p>
+
+Uma estética onde nostalgia e mistério se encontram.
+
+</p>
+
+<button>Ler artigo</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="sobre" class="sobre">
+
+<h2>Sobre</h2>
+
+<p>
+
+O Refúgio da Realidade nasceu para reunir textos, sonhos,
+
+histórias, liminal spaces, dreamcore e tudo aquilo que
+
+faz a imaginação escapar da rotina.
+
+</p>
+
+</section>
+
+<section id="contato" class="contato">
+
+<h2>Contato</h2>
+
+<form>
+
+<input type="text" placeholder="Nome">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Mensagem"></textarea>
+
+<button>
+
+Enviar
+
+</button>
+
+</form>
 
 </section>
 
 <footer>
 
-    <h3>Refúgio da Realidade</h3>
+<h3>Refúgio da Realidade</h3>
 
-    <p>
-        Nem tudo que é real precisa existir.
-    </p>
+<p>
 
-    <p>
-        © 2026 - Todos os direitos reservados.
-    </p>
+Nem tudo que é real precisa existir.
+
+</p>
+
+<p>
+
+©2026 Todos os direitos reservados.
+
+</p>
 
 </footer>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
